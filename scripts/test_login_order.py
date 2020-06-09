@@ -20,7 +20,7 @@ class TestLogin:
     @pytest.mark.run(order=0)
     def test_login_4(self):
         """不记住密码登录"""
-        print("0")
+        print("10")
 
     @pytest.mark.run(order=-1)
     def test_login_5(self):
